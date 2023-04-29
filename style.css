@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bruno Ace SC', cursive;
+}
+nav {
+    height: 4rem;
+}
+
+.logo-name {
+    margin-left: 1.5rem;
+    letter-spacing: 4px;
+}
+.nav-logo {
+    color: red;
+    font-size: 1.2rem;
+    /* margin-right: 5rem; */
+    
+}
+
+.nav-ul li:hover {
+    border-bottom: 1px solid indianred;
+    
+}
+.nav-search {
+  background-color: rgb(233, 245, 255);
+}
+.nav-btn {
+  background-color: rgb(46, 39, 39);
+  color: rgb(170, 168, 168);
+  border: 1px solid grey;
+}
+
+/* Swipper */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Swipper ends  */
+
+  /* Todays deals  */
+  .container-fluid h1 {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .today-deal {
+    color: indianred;
+  }
+  /* Todays deals end  */
+
+  /* Product List  */
+  /* Add some basic styling to the page */
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-fluid h1 {
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+.discount {
+  margin-top: -2.8rem;
+  margin-bottom: 1.8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.p-offer {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.filter-div {
+  margin: auto auto;
+  margin-bottom: 2rem;
+}
+.filter1 {
+  display: flex;
+  justify-content: left;
+  margin-left: 1.1rem;
+}
+.filter2 {
+  display: flex;
+  justify-content: end;
+  margin-right: 1.1rem;
+}
+
+.product-list, .latest-product-list, .fashion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.product-look {
+    max-width: 550px;
+    margin-bottom: 35px;
+    width: 350px;
+    padding: 0;
+    min-width: 250px;
+    margin: auto auto;
+    font-family: 'Noto Serif', serif;
+}
+.product-look button {
+  font-family: 'Bruno Ace SC', cursive;
+  
+}
+.btn-group { 
+  padding: auto;
+}
+.product-look-inside {
+    width: 100%;
+    height: 100%;
+}
+.card-img {
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+.card-img img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.card-content {
+    width: 100%;
+    height: 40%;
+}
+.card-content h2 {
+    font-size: 1.5rem;
+    
+}
+.product-desc {
+    font-size: 0.7rem;
+}
+.btn-group button:hover {
+    background-color: #152c44;
+
+}
+.product-price {
+    font-size: 1rem;
+}
+
+  /* Product List ends */
+
+  /* Footer  */
+  .foot {
+    background-color: var(--bs-emphasis-color);
+    opacity: 0.8;
+    color: #fff;
+  }
+  .foot1 a {
+    font-size: 2rem;
+  }
+  .foot-logo {
+    font-size: 4rem;
+    color: red;
+  }
+  .foot-ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .foot-ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
+  .foot-ul li i {
+    font-size: 2rem;
+    transition: 0.4s ease-in-out;
+  }
+  .foot-ul li i:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+  }
+  .fa-facebook, .fa-twitter {
+    color: rgb(39, 114, 244);
+  }
+  .fa-instagram, .fa-pinterest {
+    color: red;
+  }
+  .fa-whatsapp {
+    color: rgb(21, 218, 21);
+  }
+  h4 {
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: rgb(123, 123, 123);
+  }
+.company-li {
+    list-style: none;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    color: grey;
+    text-align: left;
+}
+.company i {
+    font-size: 0.8rem;
+    margin-right: 0.8rem;
+    margin-left: -0.8rem;
+}
+.fa-envelope, .fa-phone {
+    color: aliceblue;
+}
+.fa-map-marker {
+    color: rgb(253, 177, 24);
+}
+.foot .col {
+    margin-bottom: 1.4rem;;
+}
+.end {
+    margin-left: -0.8rem;
+}
+.foot2 {
+    width: 100%;
+    font-size: 0.9rem;
+    background: grey;
+    color: beige;
+    padding: 2rem;
+    margin: 0;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .foot2 i {
+    margin-right: 0.5rem;
+  }

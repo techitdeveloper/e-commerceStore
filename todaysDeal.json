@@ -1,0 +1,98 @@
+[
+    {
+        "name": "iPhone 12",
+        "description": "The ultimate iPhone experience.",
+        "image": "res/iphone.jpg",
+        "price": 999.99,
+        "category": "electronics",
+        "type": "today"
+    },
+    {
+        "name": "Nike Air Max 270",
+        "description": "The Air Max 270 delivers comfort and style.",
+        "image": "res/nike.jpg",
+        "price": 150.0,
+        "category": "clothing",
+        "type": "today"
+    },
+    {
+        "name": "Kindle Paperwhite",
+        "description": "Now with 2x the storage.",
+        "image": "res/kindle.jpg",
+        "price": 129.99,
+        "category": "electronics",
+        "type": "today"
+    },
+    {
+        "name": "Food Processor",
+        "description": "A kitchen essential for all your food needs.",
+        "image": "res/foodPro.jpg",
+        "price": 229.0,
+        "category": "Home",
+        "type": "today"
+    },
+    {
+        "name": "Backpack",
+        "description": "Carry your essentials in style.",
+        "image": "res/backpack.jpg",
+        "price": 89.99,
+        "category": "clothing",
+        "type": "today"
+    },
+    {
+        "name": "Samsung Galaxy",
+        "description": "with snapdragon 750",
+        "image": "res/samsung.jpg",
+        "price": 189.99,
+        "category": "electronics",
+        "type": "today"
+    },
+    {
+        "name": "Funday Fashion",
+        "description": "Synthetic A-Line Floral Maxi Dress",
+        "image": "res/dress1.jpg",
+        "price": 384.00,
+        "category": "women",
+        "type": "fashion"
+    },
+    {
+        "name": "LAKHDATAR fit",
+        "description": "Fashion Women's Fit V-Neck Maxi Gown",
+        "image": "res/dress.jpg",
+        "price": 250.0,
+        "category": "women",
+        "type": "fashion"
+    },
+    {
+        "name": "Uptownie Lite",
+        "description": "Women's Maxi Jumpsuit",
+        "image": "res/dress3.jpg",
+        "price": 229.99,
+        "category": "women",
+        "type": "fashion"
+    },
+    {
+        "name": "Urbano Fashion",
+        "description": "Regular Fit Washed Full Sleeve Denim Jacket",
+        "image": "res/men1.jpg",
+        "price": 279.0,
+        "category": "men",
+        "type": "fashion"
+    },
+    {
+        "name": "Dennis Lingo",
+        "description": "Solid Slim Fit Cotton Casual Shirt with Spread Collar ",
+        "image": "res/men2.jpg",
+        "price": 189.99,
+        "category": "men",
+        "type": "fashion"
+    },
+    {
+        "name": "Lymio Jacket",
+        "description": "Men's Regular Fit Washed Full Sleeve Jacket",
+        "image": "res/men3.jpg",
+        "price": 489.99,
+        "category": "men",
+        "type": "fashion"
+    }
+]

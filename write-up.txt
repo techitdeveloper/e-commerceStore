@@ -1,0 +1,17 @@
+For developing the web page to display the product list from a JSON file, I used JavaScript, HTML, CSS and Bootstrap.
+
+I have used JavaScript to fetch the data from the JSON file using the fetch API, and then to manipulate the data to remove any duplicate products based on the type of the product. I then used JavaScript's map() method to create HTML elements for each product and append them to the DOM.
+
+HTML was used to create the structure of the webpage, including the container for the product list and the individual product cards.
+
+I used Bootstrap to make the webpage responsive for every screen sizes and to create a grid layout for the product cards. I used Bootstrap's card component to create the individual product cards, and used its grid system to create rows and columns for the cards. I also used Bootstrap's utility classes to add spacing and alignment to the cards.
+
+One challenge I faced was the duplication of products when displaying them on the webpage. This was due to the fact that the original data contained duplicate products for testing ambiguity. To overcome this challenge, I used JavaScript's filter() method to remove any duplicate products before displaying them on the webpage, for this I took reference from stack overflow.
+
+Another challenge was making the product cards responsive and ensuring that they had the same size and spacing. To overcome this, I used Bootstrap's grid system to create a fixed number of columns and rows for the product cards, and used its utility classes to add spacing and alignment to the cards, for this I took reference from the BootStrap's Documentation.
+
+Overall, this task helped me gain a new experience while learning new techniques and the combination of JavaScript, HTML, CSS and Bootstrap allowed me to create a responsive and visually appealing web page that beautifully displays the data from the JSON file.
+
+
+
+

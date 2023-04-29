@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Including BootStrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Including Font Awsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Including Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
+    <!-- Link swipper -->
+    <link rel="stylesheet" href="trending.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <title>My Store</title>
+</head>
+
+<body>
+    <!-- Header Starts here -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid nav-div">
+                <div><a class="navbar-brand logo-name" href="#">My Store<span class="nav-logo">.</span></a></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-ul">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#shop">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deals">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Contact us</a>
+                        </li>
+
+
+                    </ul>
+                    <!-- This is outside the scope of the task used to beautify the UI -->
+                    <!-- starts  -->
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 nav-search" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success nav-btn" type="submit">Search</button>
+                    </form>
+                    <!-- Ends  -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Ends here -->
+
+
+    <!-- Swipper Section -->
+    <section id="shop">
+        <div class="swiper mySwiper container-fluid">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="img-fluid" src="res/wel2.jpg" alt=" "></div>
+                <div class="swiper-slide"><img class="img-fluid" src="res/wel4.jpg" alt=" "></div>
+                <div class="swiper-slide"><img class="img-fluid" src="res/wel3.jpg" alt=" "></div>
+                <div class="swiper-slide"><img class="img-fluid" src="res/wel1.jpg" alt=" "></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="swipper.js"></script>
+    <!-- Swipper Ends here -->
+
+    <!-- Today Section starts  -->
+    <section id="deals">
+        <div class="container-fluid">
+            <h1><span class="today-deal">Today's</span> Deals</h1>
+            <p class="text-center discount">Up to 70% off</p>
+            <div class="filter-div container container-fluid row">
+                <div class="container-fluid col text-center filter1">
+                    <label for="category-filter">Category:</label>
+                    <select id="category-filter1">
+                        <option value="">All</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="clothing">Clothing</option>
+                        <option value="Home">Home</option>
+                    </select>
+                </div>
+                <div class="container-fluid col text-center filter2">
+                    <label for="price-filter">Price Range:</label>
+                    <select id="price-filter1">
+                        <option value="">All</option>
+                        <option value="0-50">$0 - $50</option>
+                        <option value="50-100">$50 - $100</option>
+                        <option value="100-250">$100 - $250</option>
+                        <option value="250+">$250+</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="container container-fluid">
+            <div class="product-list container-fluid">
+                <!-- Product will be displayed here -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Today Section ends  -->
+    <!-- Trending Fashion section starts  -->
+    <section class="newtrends">
+        <div class="container-fluid">
+            <h1><span class="today-deal">Latest</span> Fashion</h1>
+            <p class="text-center discount">New Arrivals</p>
+            <div class="filter-div container container-fluid row">
+                <div class="container-fluid col text-center filter1">
+                    <label for="category-filter">Category: </label>
+                    <select id="category-filter2">
+                        <option value="">All</option>
+                        <option value="women">Women</option>
+                        <option value="men">Men</option>
+                    </select>
+                </div>
+                <div class="container-fluid col text-center filter2">
+                    <label for="price-filter">Price: </label>
+                    <select id="price-filter2">
+                        <option value="">All</option>
+                        <option value="0-50">$0 - $50</option>
+                        <option value="50-100">$50 - $100</option>
+                        <option value="100-250">$100 - $250</option>
+                        <option value="250+">$250+</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="container container-fluid">
+            <div class="container-fluid fashion">
+                <!-- Product will be displayed here -->
+
+            </div>
+        </div>
+    </section>
+    <!-- Trending Fashion section ends  -->
+
+
+    <!-- Special Section starts-->
+    <section class="latest trends">
+        <div class="product-intro">
+            <h2><span>Limited</span> Offers</h2>
+            <p class="text-center p-offer">Limited Offers for speacial you </p>
+        </div>
+        <div id="mySwiper" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="swipe" src="res/headphone1.png" alt=" " />
+                </div>
+                <div class="swiper-slide">
+                    <img class="swipe" src="res/headphone2.png" alt=" " />
+                </div>
+                <div class="swiper-slide">
+                    <img class="swipe" src="res/headphone3.png" alt=" " />
+                </div>
+                <div class="swiper-slide">
+                    <img class="swipe" src="res/headphone4.jpg" alt=" " />
+                </div>
+                <div class="swiper-slide">
+                    <img class="swipe" src="res/headphone5.jpg" alt=" " />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var newswiper = new Swiper("#mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 1,
+                stretch: 100,
+                depth: 2000,
+                modifier: 10,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <!-- Special Section Ends  -->
+
+    <!-- Footer starts  -->
+    <footer id="about" class="foot">
+        <div class="container text-center">
+            <div class="foot1">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <a class="navbar-brand logo-name" href="#">My Store<span class="foot-logo">.</span></a>
+                    </div>
+                    <div class="col">
+                        <ul class="foot-ul">
+                            <li><i class="fa fa-facebook"></i></li>
+                            <li><i class="fa fa-instagram"></i></li>
+                            <li><i class="fa fa-whatsapp"></i></li>
+                            <li><i class="fa fa-twitter"></i></li>
+                            <li><i class="fa fa-pinterest"></i></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h4>Company</h4>
+                        <ul class="company">
+                            <li class="company-li">About Us</li>
+                            <li class="company-li">Careers</li>
+                            <li class="company-li">Press</li>
+                        </ul>
+
+                    </div>
+                    <div class="col">
+                        <h4>Contact Us</h4>
+                        <ul class="company">
+                            <li class="company-li"><i class="fa fa-envelope"></i>demo@email.com</li>
+                            <li class="company-li"><i class="fa fa-phone"></i>+91 9876543210</li>
+                            <li class="company-li"><i class="fa fa-map-marker" aria-hidden="true"></i>Office Location
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>Services</h4>
+                        <ul class="company">
+                            <li class="company-li end">Cash on delivery</li>
+                            <li class="company-li end">Easy EMI</li>
+                            <li class="company-li end">Easy Return</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+    <!-- Footer ends  -->
+
+    <!-- Copywrite Section Starts -->
+    <div class="foot2 container-fluid">
+        <i class="fa fa-copyright" aria-hidden="true"></i>All rights reserved.
+    </div>
+    <!-- Copywrite Section Ends  -->
+
+    <!-- JS Display products and applting filters -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
