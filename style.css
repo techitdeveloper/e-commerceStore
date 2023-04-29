@@ -107,13 +107,13 @@ h1 {
 }
 .filter1 {
   display: flex;
-  justify-content: left;
-  margin-left: 1.1rem;
+  justify-content: space-evenly;
+  margin: 0.5rem auto;
 }
 .filter2 {
   display: flex;
-  justify-content: end;
-  margin-right: 1.1rem;
+  justify-content: space-evenly;
+  margin: 0.5rem auto;
 }
 
 .product-list, .latest-product-list, .fashion {
